@@ -6,6 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.chains.combine_documents.stuff import create_stuff_documents_chain
 from langchain.prompts import PromptTemplate
+from langchain_huggingface import HuggingFacePipeline
 import Analysepdf as Apdf
 import Analysedocs as Adoc
 rom langchain.vectorstores import FAISS
